@@ -19,8 +19,8 @@ global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Dodoma";
 global.github=process.env.GITHUB|| "https://github.com/kingjux/Venocyber-md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o" ; 
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VabK6Od7YSd0B4SZEa3e";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029VabK6Od7YSd0B4SZEa3e" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg" ; // SET LOGO FOR IMAGE 
 
 
@@ -92,7 +92,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "VENOCYBER",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SHEHZADA",
 
 
 
